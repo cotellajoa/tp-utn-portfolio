@@ -4,7 +4,7 @@ Este es mi Trabajo Práctico Final para el curso [Nombre del Curso].
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en la creación de una página web tipo portfolio, inspirada en el diseño presentado en Behance por https://www.behance.net/gallery/196798559/Portfolio-Website-Design?tracking_source=search_projects_views%7Cweb+design+portfolio+landing+page&l=28
+Este proyecto consiste en la creación de una página web tipo portfolio, inspirada en el diseño presentado en Behance por https://dribbble.com/shots/22413177-Frontend-Developer-Portfolio
  La página web está diseñada para mostrar mi trabajo y habilidades de manera efectiva y atractiva.
 
 ## Tecnologías Utilizadas
