@@ -103,3 +103,47 @@ body {
 }
 
 /* Second page */
+.second-page {
+    background-color: #131313;
+}
+
+.second-page h3 {
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+
+.second-page #destacados {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.second-page span {
+    color: var(--primary);
+}
+
+.second-page .proyectos {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.second-page .proyectos .proyecto {
+    border: 2px solid #123C37;
+    width: 335px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.second-page .proyectos .proyecto img {
+    width: 100%;
+}
+
