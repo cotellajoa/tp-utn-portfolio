@@ -145,19 +145,23 @@ body {
 
 .second-page .proyectos .proyecto img {
     width: 100%;
+    height: 80%;
 }
 
-/* Third page */
-.t-page {
+/* Third Page */
+
+
+/* Four page */
+.four-page {
     background-color: #1D1D1D;
     padding-bottom: 40px;
 }
 
-.t-page span{
+.four-page span{
     color: var(--primary);
 }
 
-.t-page #skills {
+.four-page #skills {
     margin: 0;
     padding-top: 40px;
     text-align: center;
@@ -166,14 +170,14 @@ body {
     color: #4F4F4F;
 }
 
-.t-page h4 {
+.four-page h4 {
     text-align: center;
     font-weight: 600;
     font-size: 25px;
     color: #F1F1F1;
 }
 
-.t-page .skills-presentation .titles-skills {
+.four-page .skills-presentation .titles-skills {
     text-align: center;
     color: #027e6f;
     font-weight: 800;
@@ -181,7 +185,7 @@ body {
     margin-bottom: 10px;
 }
 
-.t-page .skills-presentation hr {
+.four-page .skills-presentation hr {
     margin: 0 20%;
     background-color: #123C37;
     height: 2px;
@@ -189,11 +193,11 @@ body {
     border-radius: 4px;
 }
 
-.t-page .skills-presentation .all-skills svg {
+.four-page .skills-presentation .all-skills svg {
     width: 50px;
 }
 
-.t-page .skills-presentation .all-skills {
+.four-page .skills-presentation .all-skills {
     display: flex;
     margin: 20px;
     justify-content: center;
