@@ -526,3 +526,14 @@
         margin-top: 22px;
     }
 }
+
+@media (max-width: 1280px) {
+    /* Third page */
+    .third-page #cuerpo-ab-me {
+        justify-content: space-evenly;
+    }
+
+    .third-page #imagen-ab {
+        width: 46%;
+    }
+}
