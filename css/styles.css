@@ -24,10 +24,12 @@ body {
     background-image: url(./../imgs/bg.jpg);
 }
 
+.first-page .hamburger-menu {
+    display: none;
+}
 .first-page header {
     display: flex;
     justify-content: space-between;
-    height: 2rem;
     padding: 20px;
     align-items: center;
 }
@@ -84,11 +86,11 @@ body {
 
 .first-page .rest-page {
     text-align: center;
-    margin-top: 120px;
 }
 
 .first-page .rest-page h1 {
     font-weight: 500;
+    font-size: 2em;
 }
 
 .first-page .rest-page h2 {
