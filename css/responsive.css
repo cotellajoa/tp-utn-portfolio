@@ -443,3 +443,86 @@
         padding: 10px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* First page */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-page header .hamburger-menu {
+        display: block;
+        width: 40px;
+    }
+
+    .first-page nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        row-gap: 10px;
+    }
+
+    .first-page .rest-page {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .first-page #resume-btn a{
+        width: 100%;
+    }
+
+    /* Second page */
+    .second-page .proyectos {
+        padding: 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    /* Third page */
+    .third-page #imagen-ab img {
+        width: 100%;
+    }
+
+    .third-page #imagen-ab {
+        width: 45%;
+    }
+
+    .third-page #cuerpo-ab-me #cp-ab {
+        font-size: 1.2rem;
+    }
+
+    /* Fifth page */
+    .fifth-page .form-contact {
+        padding: 10px;
+        justify-content: inherit;
+        margin: 60px 10px;
+        column-gap: 15px;
+    }
+
+    .fifth-page .form-contact #left-side {
+        width: 38%;
+    }
+
+    .fifth-page #right-side {
+        width: 52%;
+    }
+
+    .fifth-page #right-side form #text-box {
+        width: 98%;
+    }
+
+    .fifth-page #right-side form #send-btn {
+        align-self: center;
+        width: 55%;
+    }
+
+    /* Footer */
+    footer .footer-desc #logo-container {
+        margin-top: 22px;
+    }
+}
