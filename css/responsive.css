@@ -73,6 +73,153 @@
         margin: 10px 0 0 0;
         flex-direction: column;
         font-size: 1em;
+        padding: 10px;
+    }
+
+    .fifth-page .form-contact #left-side {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fifth-page .form-contact #left-side .addons {
+        margin: 30px 0;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon {
+        column-gap: 5px;
+        flex-direction: column;
+        width: 150px;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon p {
+        font-size: 10px;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon svg {
+        width: 20px;
+    }
+
+    .fifth-page #right-side {
+        width: 100%;
+    }
+
+    .fifth-page #right-side form #text-box {
+        width: 83%;
+    }
+
+    .fifth-page #right-side form #send-btn {
+        width: 100%;
+        font-weight: 800;
+        padding: 0;
+    }
+
+    .fifth-page #right-side form input {
+        width: 85%;
+    }
+
+    /* Footer */
+    footer .footer-desc {
+        height: auto;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    footer .footer-desc .tags {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-desc .tags .tag {
+        border-right: none;
+        border-bottom: 1px solid #f1f1f1;
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    footer #finalOfPage {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* First page */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-page header .hamburger-menu {
+        display: block;
+        width: 40px;
+    }
+
+    .first-page nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        row-gap: 10px;
+    }
+
+    .first-page .rest-page {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .first-page #resume-btn a{
+        width: 100%;
+    }
+
+    .first-page .rest-page h2 {
+        font-size: 12px;
+    }
+
+    .first-page .rest-page .icons {
+        column-gap: 15px;
+    }
+
+    .first-page .rest-page .icons img {
+        width: 30px;
+    }
+
+    /* Second page */
+    .second-page .proyectos {
+        padding: 10px;
+    }
+
+    .second-page .proyectos .proyecto p {
+        margin: 10px;
+    }
+
+    /* Third page */
+    .third-page #cuerpo-ab-me {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    .third-page #imagen-ab {
+        width: 80%;
+        align-self: end;
+    }
+
+    .third-page #cuerpo-ab-me #cp-ab {
+        width: 90%;
+        padding: 10px;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
+    /* Fifth page */
+    .fifth-page .form-contact {
+        margin: 10px 0 0 0;
+        flex-direction: column;
+        font-size: 1em;
     }
 
     .fifth-page .form-contact #left-side {
@@ -117,6 +264,165 @@
         height: auto;
         justify-content: center;
         padding-top: 20px;
+        flex-direction: column;
+    }
+
+    footer .footer-desc #logo-container {
+        align-self: center;
+    }
+
+    footer .footer-desc .tags {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-desc .tags .tag {
+        border-right: none;
+        border-bottom: 1px solid #f1f1f1;
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    footer #finalOfPage {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* First page */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first-page header .hamburger-menu {
+        display: block;
+        width: 40px;
+    }
+
+    .first-page nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        row-gap: 10px;
+    }
+
+    .first-page .rest-page {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .first-page #resume-btn a{
+        width: 100%;
+    }
+
+    .first-page .rest-page h2 {
+        font-size: 12px;
+    }
+
+    .first-page .rest-page .icons {
+        column-gap: 15px;
+    }
+
+    .first-page .rest-page .icons img {
+        width: 30px;
+    }
+
+    /* Second page */
+    .second-page .proyectos {
+        padding: 10px;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-page .proyectos .proyecto p {
+        margin: 10px;
+    }
+
+    /* Third page */
+    .third-page #cuerpo-ab-me {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 10px;
+    }
+
+    .third-page #imagen-ab {
+        width: 80%;
+        align-self: end;
+    }
+
+    .third-page #cuerpo-ab-me #cp-ab {
+        width: 90%;
+        padding: 10px;
+        margin-top: 15px;
+        font-size: 1rem;
+    }
+
+    /* Fifth page */
+    .fifth-page .form-contact {
+        margin: 10px 0 0 0;
+        flex-direction: column;
+        font-size: 1em;
+        padding: 25px;
+    }
+
+    .fifth-page .form-contact #left-side {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fifth-page .form-contact #left-side .addons {
+        margin: 30px 0;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon {
+        column-gap: 5px;
+        width: 90%;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon p {
+        font-size: 20px;
+    }
+
+    .fifth-page .form-contact #left-side .addons .icon svg {
+        width: 20px;
+    }
+
+    .fifth-page #right-side {
+        width: 100%;
+    }
+
+    .fifth-page #right-side form label {
+        width: 90%;
+    }
+
+    .fifth-page #right-side form #text-box {
+        width: 98%;
+    }
+
+    .fifth-page #right-side form #send-btn {
+        width: 100%;
+        font-weight: 800;
+        padding: 0;
+    }
+
+    /* Footer */
+    footer .footer-desc {
+        height: auto;
+        justify-content: center;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    footer .footer-desc #logo-container {
+        align-self: center;
     }
 
     footer .footer-desc .tags {

@@ -194,7 +194,7 @@ body {
     width: 35%;
 }
 .third-page #imagen-ab img {
-    width: 100%;
+    width: 70%;
 }
 
 .third-page #cuerpo-ab-me #cp-ab {
@@ -358,7 +358,7 @@ body {
 }
 
 .fifth-page #right-side form #text-box {
-    width: calc(100%-100px);
+    width: (90%);
     height: 80px;
     padding: 15px;
     color: #636363;
