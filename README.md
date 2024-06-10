@@ -25,3 +25,8 @@ El proyecto se encuentra alojado en GitHub y puede ser accedido en el siguiente 
 ---
 
 *Este proyecto fue realizado como parte del Trabajo Práctico Final para el curso Diplomatura en Programación Web - Full stack developer.*
+
+
+## Modificaciones
+Se modificó el diseño del apartado de Skills.
+Se borró el apartado de Services
